@@ -1,29 +1,52 @@
-# Nested Table with Wrapped Text
+# Nested Table Example
+
+This is an example of a nested table using HTML syntax within a Markdown file.
 
 <table>
-  <tr>
-    <th>Column 1</th>
-    <th>Column 2</th>
-    <th>Column 3</th>
-  </tr>
-  <tr>
-    <td>
-      <!-- Nested Table -->
-      <table>
-        <tr>
-          <th>Nested Column 1</th>
-          <th>Nested Column 2</th>
-        </tr>
-        <tr>
-          <td>Nested Data 1</td>
-          <td>   **Short text (around 50 words)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-   </td>
-        </tr>
-      </table>
-    </td>
-    <td>
-      **Short text (around 50 words)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </td>
-    <td>Simple Text</td>
-  </tr>
+    <tr>
+        <th>Main Header 1</th>
+        <th>Main Header 2</th>
+    </tr>
+    <tr>
+        <td>
+            Sub-table 1
+            <table>
+                <tr>
+                    <th>Sub-header 1</th>
+                    <th>Sub-header 2</th>
+                </tr>
+                <tr>
+                    <td>Row 1, Cell 1</td>
+                    <td style="word-wrap: break-word; width: 200px;">
+                        This is an example text that consists of exactly fifty words. It serves as a placeholder for content, demonstrating how text can fill up a cell in a table. You can replace this with any relevant information as needed in your Markdown documentation.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Row 2, Cell 1</td>
+                    <td>Row 2, Cell 2</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            Sub-table 2
+            <table>
+                <tr>
+                    <th>Sub-header A</th>
+                    <th>Sub-header B</th>
+                </tr>
+                <tr>
+                    <td>Row 1, Cell A</td>
+                    <td>Row 1, Cell B</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Cell A</td>
+                    <td>Row 2, Cell B</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>Main Data 1</td>
+        <td>Main Data 2</td>
+    </tr>
 </table>
