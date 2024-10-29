@@ -1,23 +1,28 @@
 # Nested Table with Wrapped Text
 
 <table>
-<thead>
-	<tr>
-		<th>Header 1</th>
-		<th>Header 2</th>
-		<th>Header :</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td>Column 1</td>
-		<td>Column 2</td>
-		<td>Column 3</td>
-	</tr>
-	<tr>
-		<td>Custom Table Content</td>
-		<td>Column 4</td>
-		<td>Column 5</td>
-	</tr>
-</tbody>
+  <tr>
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+  </tr>
+  <tr>
+    <td>
+      <!-- Nested Table -->
+      <table>
+        <tr>
+          <th>Nested Column 1</th>
+          <th>Nested Column 2</th>
+        </tr>
+        <tr>
+          <td>Nested Data 1</td>
+          <td>Nested Data 2</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      **Short text (around 50 words)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </td>
+    <td>Simple Text</td>
+  </tr>
 </table>
