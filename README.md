@@ -12,18 +12,18 @@ This is an example of a nested table using HTML syntax within a Markdown file.
             Sub-table 1
             <table>
                 <tr>
-                    <th>Sub-header 1</th>
-                    <th>Sub-header 2</th>
+                    <th style="width: 75px;">Sub-header 1</th>
+                    <th style="width: 75px;">Sub-header 2</th>
                 </tr>
                 <tr>
-                    <td>Row 1, Cell 1</td>
-                    <td style="word-wrap: break-word; width: 200px;">
-                        This is an example text that consists of exactly fifty words. <br/>It serves as a placeholder for content, demonstrating how text can fill up a cell in a table.<br/> You can replace this with any relevant information as needed in your Markdown documentation.
+                    <td style="width: 75px;">Row 1, Cell 1</td>
+                    <td style="width: 75px;">
+                        This is an example text that consists of exactly fifty words. It serves as a placeholder for content, demonstrating how text can fill up a cell in a table. You can replace this with any relevant information as needed in your Markdown documentation.
                     </td>
                 </tr>
                 <tr>
-                    <td>Row 2, Cell 1</td>
-                    <td>Row 2, Cell 2</td>
+                    <td style="width: 75px;">Row 2, Cell 1</td>
+                    <td style="width: 75px;">Row 2, Cell 2</td>
                 </tr>
             </table>
         </td>
@@ -31,16 +31,16 @@ This is an example of a nested table using HTML syntax within a Markdown file.
             Sub-table 2
             <table>
                 <tr>
-                    <th>Sub-header A</th>
-                    <th>Sub-header B</th>
+                    <th style="width: 75px;">Sub-header A</th>
+                    <th style="width: 75px;">Sub-header B</th>
                 </tr>
                 <tr>
-                    <td>Row 1, Cell A</td>
-                    <td>Row 1, Cell B</td>
+                    <td style="width: 75px;">Row 1, Cell A</td>
+                    <td style="width: 75px;">Row 1, Cell B</td>
                 </tr>
                 <tr>
-                    <td>Row 2, Cell A</td>
-                    <td>Row 2, Cell B</td>
+                    <td style="width: 75px;">Row 2, Cell A</td>
+                    <td style="width: 75px;">Row 2, Cell B</td>
                 </tr>
             </table>
         </td>
