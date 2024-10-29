@@ -2,7 +2,7 @@
 
 This is an example of a nested table using HTML syntax within a Markdown file.
 
-<table border="1" style="border-collapse: collapse;">
+<table border="1" style="border-collapse: collapse; width: 100%;">
     <tr>
         <th>Main Header 1</th>
         <th>Main Header 2</th>
@@ -10,10 +10,10 @@ This is an example of a nested table using HTML syntax within a Markdown file.
     <tr>
         <td>
             Sub-table 1
-            <table border="1" style="border-collapse: collapse;">
+            <table border="1" style="border-collapse: collapse; width: 100%;">
                 <tr>
-                    <th>Sub-header 1</th>
-                    <th>Sub-header 2</th>
+                    <th style="width: 75px;">Sub-header 1</th>
+                    <th style="width: 75px;">Sub-header 2</th>
                 </tr>
                 <tr>
                     <td style="width: 75px;">Row 1, Cell 1</td>
@@ -29,10 +29,10 @@ This is an example of a nested table using HTML syntax within a Markdown file.
         </td>
         <td>
             Sub-table 2
-            <table border="1" style="border-collapse: collapse;">
+            <table border="1" style="border-collapse: collapse; width: 100%;">
                 <tr>
-                    <th>Sub-header A</th>
-                    <th>Sub-header B</th>
+                    <th style="width: 75px;">Sub-header A</th>
+                    <th style="width: 75px;">Sub-header B</th>
                 </tr>
                 <tr>
                     <td style="width: 75px;">Row 1, Cell A</td>
