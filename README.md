@@ -17,7 +17,7 @@ This is an example of a nested table using HTML syntax within a Markdown file.
                 </tr>
                 <tr>
                     <td>Row 1, Cell 1</td>
-                    <td>This is an example text that consists of exactly fifty words. It serves as a placeholder for content, demonstrating how text can fill up a cell in a table. You can replace this with any relevant information as needed in your Markdown documentation.</td>
+                    <td>This is an example text that consists of exactly fifty words. It serves as a placeholder for content, demons-<br/>trating how text can fill up a cell in a table. You can replace this with a-<br/>ny relevant information as needed in your Markdown documentation.</td>
                 </tr>
                 <tr>
                     <td>Row 2, Cell 1</td>
@@ -28,7 +28,7 @@ This is an example of a nested table using HTML syntax within a Markdown file.
         <td>
             Sub-table 2
             <table border="1">
-                <tr>
+                <tr
                     <th>Sub-header A</th>
                     <th>Sub-header B</th>
                 </tr>
