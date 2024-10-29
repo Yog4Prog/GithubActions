@@ -1,4 +1,17 @@
-# Nested Table with Short Text
+# Nested Table with Wrapped Text
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+</style>
 
 <table>
   <tr>
@@ -8,7 +21,7 @@
   </tr>
   <tr>
     <td>
-      <!-- Nested Table with Wrapped Short Text in First Row -->
+      <!-- Nested Table with Wrapped Text in First Row -->
       <table>
         <tr>
           <th>Nested Column 1</th>
@@ -22,14 +35,4 @@
           </td>
         </tr>
         <tr>
-          <td>Nested Data 1</td>
-          <td>Nested Data 2</td>
-        </tr>
-      </table>
-    </td>
-    <td>
-      More Content in Column 2
-    </td>
-    <td>Simple Text</td>
-  </tr>
-</table>
+          <td
