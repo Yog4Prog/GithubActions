@@ -50,3 +50,9 @@ This is an example of a nested table using HTML syntax within a Markdown file.
         <td>Main Data 2</td>
     </tr>
 </table>
+
+
+
+| Header 1         | Header 2          |
+|------------------|-------------------|
+| Some short text  | This is long text that<br> will manually wrap using<br> line breaks in Markdown |
