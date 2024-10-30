@@ -1,50 +1,18 @@
-# Nested Table Example
+# Example with <p> Tags
 
-This is an example of a nested table using HTML syntax within a Markdown file.
+This text is outside any `<p>` tag, so it’s just regular Markdown text.
 
-<table border="1">
+<p>This text is wrapped in a paragraph tag, so it will be separated with a bit of space before and after. You can also use this to enforce line breaks and make sure the text behaves as a paragraph.</p>
+
+## Another Example Inside a Table
+
+<table>
     <tr>
-        <th>Main Header 1</th>
-        <th>Main Header 2</th>
+        <th>Header 1</th>
+        <th>Header 2</th>
     </tr>
     <tr>
-        <td>
-            Sub-table 1
-            <table border="1">
-                <tr>
-                    <th>Sub-header 1</th>
-                    <th>Sub-header 2</th>
-                </tr>
-                <tr>
-                    <td>Row 1, Cell 1</td>
-                    <td>This is an example text that consists of exactly fifty words. It serves as a placeholder for content, demons<br/>trating how text can fill up a cell in a table. You can replace this with a<br/>ny relevant information as needed in your Markdown documentation.</td>
-                </tr>
-                <tr>
-                    <td>Row 2, Cell 1</td>
-                    <td>Row 2, Cell 2</td>
-                </tr>
-            </table>
-        </td>
-        <td>
-            Sub-table 2
-            <table border="1">
-                <tr
-                    <th>Sub-header A</th>
-                    <th>Sub-header B</th>
-                </tr>
-                <tr>
-                    <td>Row 1, Cell A</td>
-                    <td>Row 1, Cell B</td>
-                </tr>
-                <tr>
-                    <td>Row 2, Cell A</td>
-                    <td>Row 2, Cell B</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td>Main Data 1</td>
-        <td>Main Data 2</td>
+        <td><p>This is a paragraph inside a table cell. Using `<p>` here helps control spacing and allows for text wrapping within the table cell.</p></td>
+        <td><p>Another paragraph, which should also wrap properly if the Markdown renderer supports it.</p></td>
     </tr>
 </table>
