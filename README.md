@@ -2,7 +2,7 @@
 
 This is an example of a nested table using HTML syntax within a Markdown file.
 
-<table border="1" width="20%">
+<table border="1" width="50px;">
     <tr>
         <th>Main Header 1</th>
         <th>Main Header 2</th>
